@@ -127,6 +127,7 @@ class WebSocket(object):
     "HTTP/1.1 101 Switching Protocols\r\n"
     "Upgrade: WebSocket\r\n"
     "Connection: Upgrade\r\n"
+    "Sec-WebSocket-Protocol: qira\r\n"
     "Sec-WebSocket-Accept: %(acceptstr)s\r\n\r\n"
   )
 
